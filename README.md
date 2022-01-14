@@ -1,12 +1,15 @@
-#instalar nginx:
+Instalar nginx:
+```
 sudo apt install nginx
-
-#luego instalamos php
-
+```
+Luego instalamos php:
+```
 sudo apt install php-fpm
+```
 
-#configuracion de nginx
-server {
+Configuración de nginx:
+```
+server{
         listen 80;
         root /var/www/html;
         index index.php index.html index.htm index.nginx-debian.html;
@@ -25,5 +28,5 @@ server {
                 deny all;
         }
 }
-
+```
 
